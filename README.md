@@ -1,5 +1,4 @@
-# his-finalproject-database_sbe-_spring24_team4
-# Hospital Information System - Surgery Department 
+# Surgery Department Website
 
 
 
