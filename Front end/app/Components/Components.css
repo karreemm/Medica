@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.pacifico-font {
+  font-family: 'Pacifico', cursive;
+}
+.scroll-margin-top {
+  scroll-margin-top: 11rem; 
+}
+
+@media (min-width: 768px) {
+  .scroll-margin-top {
+    scroll-margin-top: 9rem; 
+  }
+}

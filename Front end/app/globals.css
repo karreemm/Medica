@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+  *::-webkit-scrollbar {
+    display: none;
+  }
+  /* Add custom-datetime styles if needed */
+.custom-datetime .rdtPicker {
+  @apply bg-white border border-gray-300 rounded-md shadow-lg;
+}
+
+.custom-datetime .rdtPicker .rdtTimeToggle {
+  @apply text-blue-500;
+}
+
+.custom-datetime .rdtPicker .rdtPrev span, 
+.custom-datetime .rdtPicker .rdtNext span {
+  @apply text-blue-500;
+}
+
+.custom-datetime .rdtPicker .rdtDay:hover, 
+.custom-datetime .rdtPicker .rdtHour:hover, 
+.custom-datetime .rdtPicker .rdtMinute:hover, 
+.custom-datetime .rdtPicker .rdtSecond:hover {
+  @apply bg-blue-500 text-white;
+}
+.searchWrapper {
+  border: none !important; 
+}
